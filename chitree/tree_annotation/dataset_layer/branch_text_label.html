@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>color block of leaves name · GitBook</title>
+        <title>branch text label · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="add_symbol.html" />
+    <link rel="next" href="link_between_two_nodes.html" />
     
     
-    <link rel="prev" href="color_categories_of_branches.html" />
+    <link rel="prev" href="text_label_with_category.html" />
     
 
     </head>
@@ -434,7 +434,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3.2.7" data-path="color_block_of_leaves_name.html">
+        <li class="chapter " data-level="1.3.2.7" data-path="color_block_of_leaves_name.html">
             
                 <a href="color_block_of_leaves_name.html">
             
@@ -629,7 +629,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2.22" data-path="branch_text_label.html">
+        <li class="chapter active" data-level="1.3.2.22" data-path="branch_text_label.html">
             
                 <a href="branch_text_label.html">
             
@@ -792,7 +792,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >color block of leaves name</a>
+        <a href="../.." >branch text label</a>
     </h1>
 </div>
 
@@ -807,42 +807,46 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p><strong>Add a color block in specific color according to the given category. If adjacent leaf nodes share identical category, there is just one color block will be drawn surrounding all these nodes. </strong></p>
-<p><div style="display:flex;justify-content: center;"><img src="https://www.chiplot.online/static/xiaochiPlot/img/chitree/colorBlock.jpg" alt="canvasSetting-1" style="width:70%;object-fit: scale-down;"></div></p>
+                                <p><div style="display:flex;justify-content: center;"><img src="../img/branchTextLabel.jpg" alt="canvasSetting-1" style="width:70%;object-fit: scale-down;"></div></p>
 
 <h1 id="layer-data">Layer data</h1>
-<p><a href="https://www.chiplot.online/normalTree.html?originalJsonDataUri=/static/xiaochiPlot/gallery/normalTree/color_block_of_leaves_name.json" target="_blank"><strong>View example tree and data</strong></a></p>
+<p><a href="https://www.chiplot.online/normalTree.html?originalJsonDataUri=/static/xiaochiPlot/gallery/normalTree/branch_text_label.json" target="_blank"><strong>View example tree and data</strong></a></p>
 <ul>
 <li>Example data</li>
 </ul>
-<p>One column of categories is needed. If you leave a cell blank, color block of corresponding node will not be drawn.</p>
+<p><font color="red">Most of node IDs used here are internal node IDs</font> (<a href="../../user_interface/attribute_main/data.html">described in tree file uploading</a>)</p>
 <table>
 <thead>
 <tr>
 <th style="text-align:center">Node IDs</th>
-<th style="text-align:center">Categories</th>
+<th style="text-align:center">Increase</th>
+<th style="text-align:center">Decrease</th>
 <th style="text-align:center">...</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">MT758060</td>
-<td style="text-align:center">A</td>
+<td style="text-align:center">Hvulg</td>
+<td style="text-align:center">+477/</td>
+<td style="text-align:center">-61</td>
 <td style="text-align:center">...</td>
 </tr>
 <tr>
-<td style="text-align:center">EF151805</td>
-<td style="text-align:center">B</td>
+<td style="text-align:center">N1</td>
+<td style="text-align:center">+77/</td>
+<td style="text-align:center">-892</td>
 <td style="text-align:center">...</td>
 </tr>
 <tr>
-<td style="text-align:center">MW309385</td>
-<td style="text-align:center">C</td>
+<td style="text-align:center">N6</td>
+<td style="text-align:center">+930/</td>
+<td style="text-align:center">-52</td>
 <td style="text-align:center">...</td>
 </tr>
 <tr>
-<td style="text-align:center">AJ717393</td>
-<td style="text-align:center">D</td>
+<td style="text-align:center">N12</td>
+<td style="text-align:center">+468/</td>
+<td style="text-align:center">-62</td>
 <td style="text-align:center">...</td>
 </tr>
 </tbody>
@@ -850,59 +854,49 @@
 <ul>
 <li>TSV format</li>
 </ul>
-<pre><code>Node_IDs    Categories
-EF151805    A
-AY699794    B
-AJ608641    B
-JF937440    B
-AJ744861    C
-AJ564643    B
-FN393747    C
-AJ717393    B
-MK238778    C
-AJ575266    A
-MT758060    A
-MT760162    C
-NR_025743    C
-FM883672    C
-HE985070    A
-FR687202    C
-KT253329    C
-HQ326178    B
-MT759893    C
-KF309029    A
-FM991866    B
-MH197303    A
-FR681897    C
-MW309385    B
-DQ112660    B
-AJ575263    B
-MK096443    A
+<pre><code>Node IDs    Increase    Decrease
+Hvulg    +477/    -61
+N1    +71/    -915
+N29    +213/    -839
+N2    +749/    -1903
+N30    +1514/    -992
+N33    +930/    -682
+N3    +1080/    -864
+N6    +37/    -4
+N7    +1538/    -1531
+N10    +108/    -52
+N12    +288/    -2231
+N13    +971/    -3033
+N16    +68/    -66
+N18    +147/    -2143
+N20    +468/    -1296
+N21    +751/    -1709
+N22    +118/    -99
+N24    +519/    -75
+AnudaA    +45/    -78
 </code></pre><h1 id="layer-controlling-attributes">Layer controlling attributes</h1>
-<h3 id="color">color</h3>
+<h3 id="text">text</h3>
 <ul>
-<li><strong><code>Color set</code></strong></li>
-</ul>
-<p><div style="display:flex;justify-content: center;"><img src="img/Color_set-1.jpg" alt="canvasSetting-1" style="width:25%;"></div></p>
-
-<p><button class="list-btn">1</button> <strong>color</strong>: Click this button to choose a default color set.</p>
-<p><button class="list-btn">2</button> <strong>color gradient</strong>: Click this button to choose a default color set from a gradient color bar depending on the number of categories.</p>
-<ul>
-<li><strong><code>Custom color</code></strong><p><div style="display:flex;justify-content: center;"><img src="img/Custom_color.jpg" alt="canvasSetting-1" style="width:25%;"></div></p>
+<li><strong><code>Text style</code></strong><p><div style="display:flex;justify-content: center;"><img src="img/branch_text_label/Text_style.jpg" alt="canvasSetting-1" style="width:25%;"></div></p>
 
 </li>
 </ul>
-<p><button class="list-btn">1</button> <strong>switch</strong>: Whether to use custom color set.</p>
-<p>All categories of that data column will be listed below followed by a <strong>color selector</strong> respectively. Click each <strong>color selector</strong> to select a color you like.</p>
+<p><button class="list-btn">1</button> <strong>position-type</strong>: </p>
 <ul>
-<li><strong><code>Color gradient</code></strong><p><div style="display:flex;justify-content: center;"><img src="img/Color_gradient.jpg" alt="canvasSetting-1" style="width:25%;"></div></p>
-
-</li>
+<li><strong>start</strong>: at the start of branch</li>
+<li><strong>middle</strong>: in the middle of branch</li>
+<li><strong>end</strong>: at the end of branch</li>
 </ul>
-<p><button class="list-btn">1</button> <strong>switch</strong>: Whether to fill each color block with gradient.</p>
-<p><button class="list-btn">2</button> <strong>reverse</strong>: Whether to reverse the gradient direction.</p>
-<h3 id="legend">legend</h3>
-<p><a href="../legend.html">See base category legend</a></p>
+<p><button class="list-btn">2</button> <strong>fill</strong>: <a href="../../svg_elements/text.html">Svg text attribute.</a></p>
+<p><button class="list-btn">3</button> <strong>fill-opacity</strong>: <a href="../../svg_elements/text.html">Svg text attribute.</a></p>
+<p><button class="list-btn">4</button> <strong>stroke</strong>: <a href="../../svg_elements/text.html">Svg text attribute.</a></p>
+<p><button class="list-btn">4</button> <strong>stroke-width</strong>: <a href="../../svg_elements/text.html">Svg text attribute.</a></p>
+<p><button class="list-btn">4</button> <strong>font-size</strong>: <a href="../../svg_elements/text.html">Svg text attribute.</a></p>
+<p><button class="list-btn">4</button> <strong>font-weight</strong>: <a href="../../svg_elements/text.html">Svg text attribute.</a></p>
+<p><button class="list-btn">4</button> <strong>font-style</strong>: <a href="../../svg_elements/text.html">Svg text attribute.</a></p>
+<p><button class="list-btn">4</button> <strong>text-anchor</strong>: <a href="../../svg_elements/text.html">Svg text attribute.</a></p>
+<p><button class="list-btn">4</button> <strong>x</strong>: <a href="../../svg_elements/text.html">Svg text attribute.</a></p>
+<p><button class="list-btn">4</button> <strong>y</strong>: <a href="../../svg_elements/text.html">Svg text attribute.</a></p>
 
                                 
                                 </section>
@@ -930,12 +924,12 @@ MK096443    A
 
             
                 
-                <a href="color_categories_of_branches.html" class="navigation navigation-prev " aria-label="Previous page: color categories of branches">
+                <a href="text_label_with_category.html" class="navigation navigation-prev " aria-label="Previous page: text map with category">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="add_symbol.html" class="navigation navigation-next " aria-label="Next page: add symbol">
+                <a href="link_between_two_nodes.html" class="navigation navigation-next " aria-label="Next page: link between two nodes">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -946,7 +940,7 @@ MK096443    A
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"color block of leaves name","level":"1.3.2.7","depth":3,"next":{"title":"add symbol","level":"1.3.2.8","depth":3,"path":"tree_annotation/dataset_layer/add_symbol.md","ref":"tree_annotation/dataset_layer/add_symbol.md","articles":[]},"previous":{"title":"color categories of branches","level":"1.3.2.6","depth":3,"path":"tree_annotation/dataset_layer/color_categories_of_branches.md","ref":"tree_annotation/dataset_layer/color_categories_of_branches.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"tree_annotation/dataset_layer/color_block_of_leaves_name.md","mtime":"2022-09-27T08:29:38.078Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-10-29T09:54:32.871Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"branch text label","level":"1.3.2.22","depth":3,"next":{"title":"link between two nodes","level":"1.3.2.23","depth":3,"path":"tree_annotation/dataset_layer/link_between_two_nodes.md","ref":"tree_annotation/dataset_layer/link_between_two_nodes.md","articles":[]},"previous":{"title":"text map with category","level":"1.3.2.21","depth":3,"path":"tree_annotation/dataset_layer/text_label_with_category.md","ref":"tree_annotation/dataset_layer/text_label_with_category.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"tree_annotation/dataset_layer/branch_text_label.md","mtime":"2022-10-29T09:03:00.641Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-10-29T09:54:32.871Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
