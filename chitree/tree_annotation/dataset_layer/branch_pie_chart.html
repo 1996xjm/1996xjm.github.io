@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>base box plot · GitBook</title>
+        <title>branch pie chart · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="box_plot_with_category.html" />
+    <link rel="next" href="base_bar_plot.html" />
     
     
-    <link rel="prev" href="stacked_bar_plot.html" />
+    <link rel="prev" href="pie_chart.html" />
     
 
     </head>
@@ -473,7 +473,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2.10" data-path="branch_pie_chart.html">
+        <li class="chapter active" data-level="1.3.2.10" data-path="branch_pie_chart.html">
             
                 <a href="branch_pie_chart.html">
             
@@ -551,7 +551,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3.2.16" data-path="base_box_plot.html">
+        <li class="chapter " data-level="1.3.2.16" data-path="base_box_plot.html">
             
                 <a href="base_box_plot.html">
             
@@ -805,7 +805,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >base box plot</a>
+        <a href="../.." >branch pie chart</a>
     </h1>
 </div>
 
@@ -820,22 +820,23 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p><div style="display:flex;justify-content: center;"><img src="../img/boxplot.jpg" alt="canvasSetting-1" style="width:70%;object-fit: scale-down;"></div></p>
+                                <p><strong>Add pie charts on branch. </strong></p>
+<p><div style="display:flex;justify-content: center;"><img src="../img/branchPieChart.jpg" alt="canvasSetting-1" style="width:70%;object-fit: scale-down;"></div></p>
 
 <h1 id="layer-data">Layer data</h1>
-<p><a href="https://www.chiplot.online/normalTree.html?originalJsonDataUri=/static/xiaochiPlot/gallery/normalTree/base_box_plot.json" target="_blank"><strong>View example tree and data</strong></a></p>
+<p><a href="https://www.chiplot.online/normalTree.html?originalJsonDataUri=/static/xiaochiPlot/gallery/normalTree/branch_pie_chart.json" target="_blank"><strong>View example tree and data</strong></a></p>
 <ul>
 <li>Example data</li>
 </ul>
-<p>Multiple columns of numerical data are needed. The median and quartiles values will be calculated automatically for each node. If you leave a cell (in the column of numerical data) blank, that null value will be excluded from calculation.</p>
+<p>Multiple columns of numerical data are needed. The proportional pie slices will be calculated automatically for each node.</p>
 <table>
 <thead>
 <tr>
 <th style="text-align:center">Node IDs</th>
-<th style="text-align:center">sample 1</th>
-<th style="text-align:center">sample 2</th>
-<th style="text-align:center">sample 3</th>
-<th style="text-align:center">sample 4</th>
+<th style="text-align:center">component 1</th>
+<th style="text-align:center">component 2</th>
+<th style="text-align:center">component 3</th>
+<th style="text-align:center">component 4</th>
 <th style="text-align:center">...</th>
 </tr>
 </thead>
@@ -877,7 +878,7 @@
 <ul>
 <li>TSV format</li>
 </ul>
-<pre><code>Node IDs    sample 1    sample 2    sample 3
+<pre><code>Node IDs    component 1    component 2    component 3
 EF151805    6    4    2
 AY699794    6    9    6
 AJ608641    5    6    5
@@ -906,47 +907,47 @@ DQ112660    5    2    1
 AJ575263    8    8    1
 MK096443    3    4    2
 </code></pre><h1 id="layer-controlling-attributes">Layer controlling attributes</h1>
-<h3 id="canvas">canvas</h3>
+<h3 id="pie">pie</h3>
 <ul>
-<li><a href="base_bar_plot.html#canvas">like base bar plot</a></li>
+<li><strong><code>Color set</code></strong></li>
 </ul>
-<h3 id="xaxis">xAxis</h3>
+<p><div style="display:flex;justify-content: center;"><img src="img/Color_set.jpg" alt="canvasSetting-1" style="width:25%;"></div></p>
+
+<p><button class="list-btn">1</button> <strong>color</strong>: Click this button to choose a default color set.</p>
 <ul>
-<li><a href="base_bar_plot.html#xaxis">like base bar plot</a></li>
-</ul>
-<h3 id="background">background</h3>
-<ul>
-<li><a href="base_bar_plot.html#background">like base bar plot</a></li>
-</ul>
-<h3 id="box">box</h3>
-<ul>
-<li><strong><code>Box style</code></strong><p><div style="display:flex;justify-content: center;"><img src="img/base_box_plot/Box_style.jpg" alt="canvasSetting-1" style="width:25%;"></div></p>
+<li><strong><code>Custom color</code></strong><p><div style="display:flex;justify-content: center;"><img src="img/Custom_color.jpg" alt="canvasSetting-1" style="width:25%;"></div></p>
 
 </li>
 </ul>
-<p><button class="list-btn">1</button> <strong>padding</strong>: Adjust the spacing between two boxes.</p>
-<p><button class="list-btn">2</button> <strong>fill</strong>: <a href="../../svg_elements/rect.html">Svg rect attribute.</a></p>
-<p><button class="list-btn">3</button> <strong>fill-opacity</strong>: <a href="../../svg_elements/rect.html">Svg rect attribute.</a></p>
-<p><button class="list-btn">4</button> <strong>stroke</strong>: <a href="../../svg_elements/rect.html">Svg rect attribute.</a></p>
-<p><button class="list-btn">5</button> <strong>stroke-as-box</strong>: Whether to change the stroke color to the same as fill color of box.</p>
-<p><button class="list-btn">6</button> <strong>stroke-width</strong>: <a href="../../svg_elements/rect.html">Svg rect attribute.</a></p>
-<p><button class="list-btn">7</button> <strong>stroke-opacity</strong>: <a href="../../svg_elements/rect.html">Svg rect attribute.</a></p>
-<p><button class="list-btn">8</button> <strong>rx</strong>: <a href="../../svg_elements/rect.html">Svg rect attribute.</a></p>
-<p><button class="list-btn">9</button> <strong>ry</strong>: <a href="../../svg_elements/rect.html">Svg rect attribute.</a></p>
-<h3 id="point">point</h3>
+<p><button class="list-btn">1</button> <strong>switch</strong>: Whether to use custom color set.</p>
+<p>All names of selected columns will be listed below followed by a <strong>color selector</strong> respectively. Click each <strong>color selector</strong> to select a color you like.</p>
 <ul>
-<li><strong><code>Point style</code></strong><p><div style="display:flex;justify-content: center;"><img src="img/base_box_plot/Point_style.jpg" alt="canvasSetting-1" style="width:25%;"></div></p>
+<li><strong><code>Pie style</code></strong><p><div style="display:flex;justify-content: center;"><img src="img/branch_pie_chart/Pie_style.jpg" alt="canvasSetting-1" style="width:25%;"></div></p>
 
 </li>
 </ul>
-<p><button class="list-btn">1</button> <strong>switch</strong>: Whether to draw value points.</p>
-<p><button class="list-btn">2</button> <strong>r</strong>: Radius of points. <a href="../../svg_elements/circle.html">Svg circle attribute.</a></p>
-<p><button class="list-btn">3</button> <strong>fill</strong>: <a href="../../svg_elements/circle.html">Svg circle attribute.</a></p>
-<p><button class="list-btn">4</button> <strong>fill-as-box</strong>: Whether to change the fill color of points to the same as fill color of box.</p>
-<p><button class="list-btn">5</button> <strong>fill-opacity</strong>: <a href="../../svg_elements/circle.html">Svg circle attribute.</a></p>
-<p><button class="list-btn">6</button> <strong>stroke</strong>: <a href="../../svg_elements/circle.html">Svg circle attribute.</a></p>
-<p><button class="list-btn">7</button> <strong>stroke-width</strong>: <a href="../../svg_elements/circle.html">Svg circle attribute.</a></p>
-<p><button class="list-btn">8</button> <strong>stroke-opacity</strong>: <a href="../../svg_elements/circle.html">Svg circle attribute.</a></p>
+<p><button class="list-btn">1</button> <strong>position-type</strong>: </p>
+<ul>
+<li><strong>start</strong>: at the start of branch</li>
+<li><strong>middle</strong>: in the middle of branch</li>
+<li><strong>end</strong>: at the end of branch</li>
+</ul>
+<p><button class="list-btn">2</button> <strong>x-offset</strong>: Horizontal position offset of pies.</p>
+<p><button class="list-btn">3</button> <strong>y-offset</strong>: Vertical position offset of pies.</p>
+<p><button class="list-btn">4</button> <strong>innerRadius</strong>: Inner radius of each pie.</p>
+<p><button class="list-btn">5</button> <strong>outerRadius</strong>: Outer radius of each pie.</p>
+<p><button class="list-btn">6</button> <strong>fill-opacity</strong>: <a href="../../svg_elements/path.html">Svg path attribute.</a></p>
+<p><button class="list-btn">7</button> <strong>stroke</strong>: <a href="../../svg_elements/path.html">Svg path attribute.</a></p>
+<p><button class="list-btn">8</button> <strong>stroke-width</strong>: <a href="../../svg_elements/path.html">Svg path attribute.</a></p>
+<p><button class="list-btn">9</button> <strong>stroke-opacity</strong>: <a href="../../svg_elements/path.html">Svg path attribute.</a></p>
+<h3 id="legend">legend</h3>
+<p><a href="../legend.html#category-arc-legend">See category arc legend</a></p>
+<p><div class="admonition tip">
+<div class="admonition-title" style="display:block;background-color:#6ab0de;color:#ffffff;padding:6px 12px;font-weight:700;">Tip</div>
+<div style="display:block;background-color:#e7f2fa;padding:6px 12px;">
+Each pie element can be dragged by mouse to a new position.
+</div>
+</div></p>
 
                                 
                                 </section>
@@ -974,12 +975,12 @@ MK096443    3    4    2
 
             
                 
-                <a href="stacked_bar_plot.html" class="navigation navigation-prev " aria-label="Previous page: stacked bar plot">
+                <a href="pie_chart.html" class="navigation navigation-prev " aria-label="Previous page: pie chart">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="box_plot_with_category.html" class="navigation navigation-next " aria-label="Next page: box plot with category">
+                <a href="base_bar_plot.html" class="navigation navigation-next " aria-label="Next page: base bar plot">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -990,7 +991,7 @@ MK096443    3    4    2
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"base box plot","level":"1.3.2.16","depth":3,"next":{"title":"box plot with category","level":"1.3.2.17","depth":3,"path":"tree_annotation/dataset_layer/box_plot_with_category.md","ref":"tree_annotation/dataset_layer/box_plot_with_category.md","articles":[]},"previous":{"title":"stacked bar plot","level":"1.3.2.15","depth":3,"path":"tree_annotation/dataset_layer/stacked_bar_plot.md","ref":"tree_annotation/dataset_layer/stacked_bar_plot.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"tree_annotation/dataset_layer/base_box_plot.md","mtime":"2022-09-28T09:28:19.738Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-10-29T15:10:25.034Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"branch pie chart","level":"1.3.2.10","depth":3,"next":{"title":"base bar plot","level":"1.3.2.11","depth":3,"path":"tree_annotation/dataset_layer/base_bar_plot.md","ref":"tree_annotation/dataset_layer/base_bar_plot.md","articles":[]},"previous":{"title":"pie chart","level":"1.3.2.9","depth":3,"path":"tree_annotation/dataset_layer/pie_chart.md","ref":"tree_annotation/dataset_layer/pie_chart.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"tree_annotation/dataset_layer/branch_pie_chart.md","mtime":"2022-10-29T15:08:44.333Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-10-29T15:10:25.034Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
