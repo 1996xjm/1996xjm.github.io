@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>text map with category · GitBook</title>
+        <title>bubble plot · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="branch_text_label.html" />
+    <link rel="next" href="base_box_plot.html" />
     
     
-    <link rel="prev" href="text_label.html" />
+    <link rel="prev" href="stacked_bar_plot.html" />
     
 
     </head>
@@ -564,7 +564,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2.16" data-path="bubble_plot.html">
+        <li class="chapter active" data-level="1.3.2.16" data-path="bubble_plot.html">
             
                 <a href="bubble_plot.html">
             
@@ -655,7 +655,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3.2.23" data-path="text_label_with_category.html">
+        <li class="chapter " data-level="1.3.2.23" data-path="text_label_with_category.html">
             
                 <a href="text_label_with_category.html">
             
@@ -831,7 +831,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >text map with category</a>
+        <a href="../.." >bubble plot</a>
     </h1>
 </div>
 
@@ -846,66 +846,56 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p><div style="display:flex;justify-content: center;"><img src="../img/textLavelWidthCategory.jpg" alt="canvasSetting-1" style="width:70%;object-fit: scale-down;"></div></p>
+                                <p><div style="display:flex;justify-content: center;"><img src="../img/bubblePlot.jpg" alt="canvasSetting-1" style="width:70%;object-fit: scale-down;"></div></p>
 
 <h1 id="layer-data">Layer data</h1>
-<p><a href="https://www.chiplot.online/normalTree.html?originalJsonDataUri=/static/xiaochiPlot/gallery/normalTree/text_label_with_category.json" target="_blank"><strong>View example tree and data</strong></a></p>
+<p><a href="https://chiplot.online/circleTree.html?originalJsonDataUri=/static/xiaochiPlot/gallery/circleTree/bubblePlot.json" target="_blank"><strong>View example tree and data</strong></a></p>
 <ul>
 <li>Example data</li>
 </ul>
-<p><div class="admonition note">
-<div class="admonition-title" style="display:flex;background-color:#fd9191;color:#ffffff;padding:6px 12px;font-weight:700;align-items: center;border-top-left-radius: 8px;border-top-right-radius: 8px;"><img style="width: 20px;height:20px;" src="../../img/icon/note.png"><span style="margin-left: 5px;">Note</span></div>
-<div style="display:block;background-color:#ffd6d6;padding:6px 12px;">
-When you add this dataset layer, the category column must be selected firstly, and then select other value columns.
-</div>
-</div>
-</p>
-
-
-
-
+<p>At least one column of numerical data are needed. If you leave a cell (in the column of numerical data) blank, the corresponding bubble will not be drawn.</p>
 <table>
 <thead>
 <tr>
 <th style="text-align:center">Node IDs</th>
-<th style="text-align:center">Categories</th>
-<th style="text-align:center">ST</th>
-<th style="text-align:center">Source</th>
-<th style="text-align:center">Country</th>
+<th style="text-align:center">sample 1</th>
+<th style="text-align:center">sample 2</th>
+<th style="text-align:center">sample 3</th>
+<th style="text-align:center">sample 4</th>
 <th style="text-align:center">...</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:center">MT758060</td>
-<td style="text-align:center">A</td>
-<td style="text-align:center">225</td>
-<td style="text-align:center">River</td>
-<td style="text-align:center">USA</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">33</td>
+<td style="text-align:center">46</td>
 <td style="text-align:center">...</td>
 </tr>
 <tr>
 <td style="text-align:center">EF151805</td>
-<td style="text-align:center">A</td>
-<td style="text-align:center">578</td>
-<td style="text-align:center">River</td>
-<td style="text-align:center">Canada</td>
+<td style="text-align:center">9</td>
+<td style="text-align:center">34</td>
+<td style="text-align:center">56</td>
+<td style="text-align:center">77</td>
 <td style="text-align:center">...</td>
 </tr>
 <tr>
 <td style="text-align:center">MW309385</td>
-<td style="text-align:center">B</td>
-<td style="text-align:center">225</td>
-<td style="text-align:center">Manure</td>
-<td style="text-align:center">Canada</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">33</td>
+<td style="text-align:center">66</td>
+<td style="text-align:center">88</td>
 <td style="text-align:center">...</td>
 </tr>
 <tr>
 <td style="text-align:center">AJ717393</td>
-<td style="text-align:center">C</td>
-<td style="text-align:center">578</td>
-<td style="text-align:center">Manure</td>
-<td style="text-align:center">Germany</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">22</td>
+<td style="text-align:center">77</td>
+<td style="text-align:center">66</td>
 <td style="text-align:center">...</td>
 </tr>
 </tbody>
@@ -913,34 +903,34 @@ When you add this dataset layer, the category column must be selected firstly, a
 <ul>
 <li>TSV format</li>
 </ul>
-<pre><code>Node IDs    Categories    ST    MIC    Source    Country
-EF151805    A    225    1.5    River    USA
-AY699794    B    225    1.5    River    USA
-AJ608641    B    225    1.5    River    USA
-JF937440    B    225    1.5    River    USA
-AJ744861    C    225    1.5    River    USA
-AJ564643    B    578    1.5    River    USA
-FN393747    C    578    1.5    River    Canada
-AJ717393    B    578    7.5    River    Canada
-MK238778    C    578    7.5    River    Canada
-AJ575266    A    578    7.5    River    Canada
-MT758060    A    578    7.5    River    Canada
-MT760162    C    578    7.5    Manure    Canada
-NR_025743    C    578    7.5    Manure    Canada
-FM883672    C    578    7.5    Manure    Canada
-HE985070    A    36    3    Manure    Canada
-FR687202    C    36    3    Manure    Canada
-KT253329    C    36    3    Manure    Canada
-HQ326178    B    36    3    Manure    Germany
-MT759893    C    36    3    Manure    Germany
-KF309029    A    941    3    Manure    Germany
-FM991866    B    941    3    Manure    Germany
-MH197303    A    941    3    Manure    Germany
-FR681897    C    941    0.75    Manure    Germany
-MW309385    B    941    0.75    Manure    Germany
-DQ112660    B    941    0.75    Manure    Germany
-AJ575263    B    941    0.75    Manure    Germany
-MK096443    A    941    0.75    Manure    Germany
+<pre><code>Node IDs    sample 1    sample 2    sample 3
+EF151805    6    4    2
+AY699794    6    9    6
+AJ608641    5    6    5
+JF937440    4    0    4
+AJ744861    5    6    0
+AJ564643    3    2    0
+FN393747    7    4    6
+AJ717393    2    0    6
+MK238778    6    6    0
+AJ575266    5    1    7
+MT758060    5    2    0
+MT760162    1    0    9
+NR_025743    9    0    7
+FM883672    9    3    2
+HE985070    0    7    0
+FR687202    4    0    5
+KT253329    9    2    0
+HQ326178    4    6    9
+MT759893    8    6    6
+KF309029    2    3    2
+FM991866    3    7    1
+MH197303    5    0    6
+FR681897    1    6    0
+MW309385    4    8    6
+DQ112660    5    2    1
+AJ575263    8    8    1
+MK096443    3    4    2
 </code></pre><h1 id="layer-controlling-attributes">Layer controlling attributes</h1>
 <h3 id="canvas">canvas</h3>
 <ul>
@@ -950,7 +940,11 @@ MK096443    A    941    0.75    Manure    Germany
 <ul>
 <li><a href="base_bar_plot.html#xaxis">like base bar plot</a></li>
 </ul>
-<h3 id="text">text</h3>
+<h3 id="background">background</h3>
+<ul>
+<li><a href="base_bar_plot.html#xaxis">like base bar plot</a></li>
+</ul>
+<h3 id="bubble">bubble</h3>
 <ul>
 <li><strong><code>Color set</code></strong></li>
 </ul>
@@ -965,16 +959,76 @@ MK096443    A    941    0.75    Manure    Germany
 <p><button class="list-btn">1</button> <strong>switch</strong>: Whether to use custom color set.</p>
 <p>All names of selected columns will be listed below followed by a <strong>color selector</strong> respectively. Click each <strong>color selector</strong> to select a color you like.</p>
 <ul>
-<li><strong><code>Text style</code></strong><p><div style="display:flex;justify-content: center;"><img src="img/text_label/Text_style.jpg" alt="canvasSetting-1" style="width:25%;"></div></p>
+<li><strong><code>Pure color</code></strong><p><div style="display:flex;justify-content: center;"><img src="img/bubble_plot/Pure_color.jpg" alt="canvasSetting-1" style="width:25%;"></div></p>
 
 </li>
 </ul>
-<p><button class="list-btn">1</button> <strong>fill-opacity</strong>: <a href="../../svg_elements/text.html">Svg text attribute.</a></p>
-<p><button class="list-btn">2</button> <strong>font-size</strong>: <a href="../../svg_elements/text.html">Svg text attribute.</a></p>
-<p><button class="list-btn">3</button> <strong>font-weight</strong>: <a href="../../svg_elements/text.html">Svg text attribute.</a></p>
-<p><button class="list-btn">4</button> <strong>text-anchor</strong>: <a href="../../svg_elements/text.html">Svg text attribute.</a></p>
+<p><button class="list-btn">1</button> <strong>switch</strong>: Whether to use a uniform color for all symbols</p>
+<p><button class="list-btn">2</button> <strong>fill</strong>: Select a color you like.</p>
+<ul>
+<li><strong><code>Bubble style</code></strong><p><div style="display:flex;justify-content: center;"><img src="img/bubble_plot/Bubble_style.jpg" alt="canvasSetting-1" style="width:25%;"></div></p>
+
+</li>
+</ul>
+<p><button class="list-btn">1</button> <strong>symbol-type</strong>: </p>
+<p><div>
+    <svg id="gfg" width="22" height="22">
+      <g transform="translate(11,11)"><path d="M10,0A10,10,0,1,1,-10,0A10,10,0,1,1,10,0" fill="#b3e2cd" stroke="black"/></g>
+    </svg>
+    <svg id="gfg" width="22" height="22">
+    <g transform="translate(11,11)"><path d="M-10,-10L10,-10L10,10L-10,10Z" fill="#b3e2cd" stroke="black"/></g>
+  </svg>
+    <svg id="gfg" width="22" height="22">
+    <g transform="translate(11,11)"><path d="M9.510565162951535,-3.090169943749474L2.938926261462366,-4.045084971874737L6.123233995736766e-16,-10L-2.938926261462365,-4.045084971874737L-9.510565162951535,-3.090169943749475L-4.755282581475767,1.5450849718747386L-5.877852522924733,8.090169943749473L-9.184850993605148e-16,5L5.877852522924729,8.090169943749476L4.755282581475767,1.5450849718747381Z" fill="#b3e2cd" stroke="black"/></g>
+  </svg>
+    <svg id="gfg" width="22" height="22">
+    <g transform="translate(11,11)"><path d="M-3.3333333333333335,-10L3.3333333333333335,-10L3.3333333333333335,-3.3333333333333335L10,-3.3333333333333335L10,3.3333333333333335L3.3333333333333335,3.3333333333333335L3.3333333333333335,10L-3.3333333333333335,10L-3.3333333333333335,3.3333333333333335L-10,3.3333333333333335L-10,-3.3333333333333335L-3.3333333333333335,-3.3333333333333335Z" fill="#b3e2cd" stroke="black"/></g>
+  </svg>
+    <svg id="gfg" width="22" height="22">
+    <g transform="translate(11,11)"><path d="M-10,-10L10,0L-10,10Z" fill="#b3e2cd" stroke="black"/></g>
+  </svg>
+    <svg id="gfg" width="22" height="22">
+    <g transform="translate(11,11)"><path d="M10,-10L10,10L-10,0Z" fill="#b3e2cd" stroke="black"/></g>
+  </svg>
+    <svg id="gfg" width="22" height="22">
+    <g transform="translate(11,11)"><path d="M0,-10L10,10L-10,10Z" fill="#b3e2cd" stroke="black"/></g>
+  </svg>
+    <svg id="gfg" width="22" height="22">
+    <g transform="translate(11,11)"><path d="M0,10L10,-10L-10,-10Z" fill="#b3e2cd" stroke="black"/></g>
+  </svg>
+</div></p>
+
+<ul>
+<li><p>circle: </p>
+</li>
+<li><p>square</p>
+</li>
+<li><p>star</p>
+</li>
+<li><p>cross</p>
+</li>
+<li><p>rightTriangle</p>
+</li>
+<li><p>leftTriangle</p>
+</li>
+<li><p>upTriangle</p>
+</li>
+<li><p>downTriangle</p>
+</li>
+</ul>
+<p><button class="list-btn">2</button> <strong>fill-opacity</strong>: <a href="../../svg_elements/rect.html">Svg rect attribute.</a></p>
+<p><button class="list-btn">3</button> <strong>stroke</strong>: <a href="../../svg_elements/rect.html">Svg rect attribute.</a></p>
+<p><button class="list-btn">4</button> <strong>stroke-width</strong>: <a href="../../svg_elements/rect.html">Svg rect attribute.</a></p>
+<p><button class="list-btn">5</button> <strong>stroke-opacity</strong>: <a href="../../svg_elements/rect.html">Svg rect attribute.</a></p>
+<ul>
+<li><strong><code>Bubble size</code></strong><p><div style="display:flex;justify-content: center;"><img src="img/bubble_plot/Bubble_size.jpg" alt="canvasSetting-1" style="width:25%;"></div></p>
+
+</li>
+</ul>
+<p><button class="list-btn">1</button> <strong>min-radius</strong>: Set the radius of the symbol whose value is minimum.</p>
+<p><button class="list-btn">2</button> <strong>max-radius</strong>: Set the radius of the symbol whose value is maximum, valid when this value is greater than the default one.</p>
 <h3 id="legend">legend</h3>
-<p><a href="../legend.html">See base category legend</a></p>
+<p><a href="../legend.html#symbol-size-legend">See symbol size legend</a></p>
 
                                 
                                 </section>
@@ -1002,12 +1056,12 @@ MK096443    A    941    0.75    Manure    Germany
 
             
                 
-                <a href="text_label.html" class="navigation navigation-prev " aria-label="Previous page: text map">
+                <a href="stacked_bar_plot.html" class="navigation navigation-prev " aria-label="Previous page: stacked bar plot">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="branch_text_label.html" class="navigation navigation-next " aria-label="Next page: branch text label">
+                <a href="base_box_plot.html" class="navigation navigation-next " aria-label="Next page: base box plot">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1018,7 +1072,7 @@ MK096443    A    941    0.75    Manure    Germany
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"text map with category","level":"1.3.2.23","depth":3,"next":{"title":"branch text label","level":"1.3.2.24","depth":3,"path":"tree_annotation/dataset_layer/branch_text_label.md","ref":"tree_annotation/dataset_layer/branch_text_label.md","articles":[]},"previous":{"title":"text map","level":"1.3.2.22","depth":3,"path":"tree_annotation/dataset_layer/text_label.md","ref":"tree_annotation/dataset_layer/text_label.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"tree_annotation/dataset_layer/text_label_with_category.md","mtime":"2022-10-31T12:39:24.476Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-03T10:13:50.429Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"bubble plot","level":"1.3.2.16","depth":3,"next":{"title":"base box plot","level":"1.3.2.17","depth":3,"path":"tree_annotation/dataset_layer/base_box_plot.md","ref":"tree_annotation/dataset_layer/base_box_plot.md","articles":[]},"previous":{"title":"stacked bar plot","level":"1.3.2.15","depth":3,"path":"tree_annotation/dataset_layer/stacked_bar_plot.md","ref":"tree_annotation/dataset_layer/stacked_bar_plot.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"tree_annotation/dataset_layer/bubble_plot.md","mtime":"2022-11-03T10:12:54.963Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-03T10:13:50.429Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
