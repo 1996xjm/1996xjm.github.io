@@ -208,7 +208,20 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2.6" data-path="scaleLegend.html">
+        <li class="chapter " data-level="1.2.2.6" data-path="lengthAxis.html">
+            
+                <a href="lengthAxis.html">
+            
+                    
+                    length axis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.7" data-path="scaleLegend.html">
             
                 <a href="scaleLegend.html">
             
@@ -221,7 +234,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2.7" data-path="BTLegend.html">
+        <li class="chapter " data-level="1.2.2.8" data-path="BTLegend.html">
             
                 <a href="BTLegend.html">
             
@@ -234,7 +247,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2.8" data-path="reset.html">
+        <li class="chapter " data-level="1.2.2.9" data-path="reset.html">
             
                 <a href="reset.html">
             
@@ -247,7 +260,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2.9" data-path="nodeAges.html">
+        <li class="chapter " data-level="1.2.2.10" data-path="nodeAges.html">
             
                 <a href="nodeAges.html">
             
@@ -260,7 +273,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2.10" data-path="export.html">
+        <li class="chapter " data-level="1.2.2.11" data-path="export.html">
             
                 <a href="export.html">
             
@@ -846,7 +859,11 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="text-style">Text style</h1>
+                                <div style="display:flex;">
+<img src="https://1996xjm.github.io/chiplot/icon/youtube.png" style="width: 50px;">
+<a style="text-indent: 5px;font-size:30px;font-weight:bold;" target="_blank" href="https://www.youtube.com/watch?v=fa1oddNRJuU&amp;list=PLfYQHjd1xleTFMggXlc1mzUPKF8RpAly4&amp;index=4">Video tutorial</a></div>
+
+<h1 id="text-style">Text style</h1>
 <p><div style="display:flex;justify-content: center;"><img src="img/leaves/textStyle.jpg" alt="canvasSetting-1" style="width:25%;object-fit: scale-down;"><img src="img/leaves/wordItalic.jpg" alt="canvasSetting-1" style="width:70%;object-fit: scale-down;"></div></p>
 
 <p><button class="list-btn">1</button> <strong>switch</strong>: Whether to display text of leaf node.</p>
@@ -920,13 +937,24 @@ There is drawback that it will uniformly change the italic style of the text aco
 <p><button class="list-btn">4</button> <strong>stroke-dasharray</strong>: <a href="../../svg_elements/line.html">Svg line attribute.</a></p>
 <p><button class="list-btn">5</button> <strong>stroke-opacity</strong>: <a href="../../svg_elements/line.html">Svg line attribute.</a></p>
 <h1 id="circle-size">Circle size</h1>
+<p><div class="admonition note">
+<div class="admonition-title" style="display:flex;background-color:#fd9191;color:#ffffff;padding:6px 12px;font-weight:700;align-items: center;border-top-left-radius: 8px;border-top-right-radius: 8px;"><img style="width: 20px;height:20px;" src="../../img/icon/note.png"><span style="margin-left: 5px;">Note</span></div>
+<div style="display:block;background-color:#ffd6d6;padding:6px 12px;">
+Attributes in this block are only available in circular layout tree.
+</div>
+</div>
+</p>
+
+
+
 <p><div style="display:flex;justify-content: center;"><img src="img/leaves/circleSize.jpg" alt="canvasSetting-1" style="width:25%;object-fit: scale-down;"></div></p>
 
-<p><button class="list-btn">1</button> <strong>endAngle</strong>: </p>
+<p><button class="list-btn">1</button> <strong>startAngle</strong>: </p>
+<p><button class="list-btn">2</button> <strong>endAngle</strong>: </p>
 <ul>
-<li>180 and 90 degrees <p><div style="display:flex;justify-content: center;"><img src="img/leaves/180endAngle.jpg" alt="canvasSetting-1" style="width:40%;object-fit: scale-down;"><img src="img/leaves/90endAngle.jpg" alt="canvasSetting-1" style="width:40%;object-fit: scale-down;"></div></p>
-</li>
+<li>180 and 90 degrees (with the start angle is 0)</li>
 </ul>
+<p><div style="display:flex;justify-content: center;"><img src="img/leaves/180endAngle.jpg" alt="canvasSetting-1" style="width:40%;object-fit: scale-down;"><img src="img/leaves/90endAngle.jpg" alt="canvasSetting-1" style="width:40%;object-fit: scale-down;"></div></p>
 
                                 
                                 </section>
@@ -970,7 +998,7 @@ There is drawback that it will uniformly change the italic style of the text aco
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"leaves","level":"1.2.2.3","depth":3,"next":{"title":"branches","level":"1.2.2.4","depth":3,"path":"user_interface/attribute_main/branches.md","ref":"user_interface/attribute_main/branches.md","articles":[]},"previous":{"title":"canvas","level":"1.2.2.2","depth":3,"path":"user_interface/attribute_main/canvas.md","ref":"user_interface/attribute_main/canvas.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"user_interface/attribute_main/leaves.md","mtime":"2022-10-31T16:52:34.060Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-03T10:13:50.429Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"leaves","level":"1.2.2.3","depth":3,"next":{"title":"branches","level":"1.2.2.4","depth":3,"path":"user_interface/attribute_main/branches.md","ref":"user_interface/attribute_main/branches.md","articles":[]},"previous":{"title":"canvas","level":"1.2.2.2","depth":3,"path":"user_interface/attribute_main/canvas.md","ref":"user_interface/attribute_main/canvas.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"user_interface/attribute_main/leaves.md","mtime":"2022-11-13T08:21:39.751Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-13T08:22:46.537Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
