@@ -885,19 +885,18 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p><strong>Add specific symbols at branch tips or in aligned layout according to the given category. </strong></p>
-<div style="display:flex;">
+                                <p><strong>Add specific symbols at branch tips, internal nodes or in aligned layout according to the given category. </strong></p>
+<p><div style="display:flex;">
 <img src="https://1996xjm.github.io/chiplot/icon/youtube.png" style="width: 50px;">
-<a style="text-indent: 5px;font-size:30px;font-weight:bold;" target="_blank" href="https://www.youtube.com/watch?v=46gCwauQVSM&amp;list=PLfYQHjd1xleTFMggXlc1mzUPKF8RpAly4&amp;index=20">Video tutorial</a></div>
-
-<p><div style="display:flex;justify-content: center;"><img src="https://www.chiplot.online/static/xiaochiPlot/img/chitree/symbol.jpg" alt="canvasSetting-1" style="width:70%;object-fit: scale-down;"></div></p>
+<a style="text-indent: 5px;font-size:30px;font-weight:bold;" target="_blank" href="https://www.youtube.com/watch?v=46gCwauQVSM&amp;list=PLfYQHjd1xleTFMggXlc1mzUPKF8RpAly4&amp;index=20">Video tutorial</a></div></p>
+<p><div style="display:flex;justify-content: center;"><img src="https://1996xjm.github.io/chiplot/img/tvbot/indexPage/addSymbol.jpg" alt="canvasSetting-1" style="width:70%;object-fit: scale-down;"></div></p>
 
 <h1 id="layer-data">Layer data</h1>
 <p><a href="https://www.chiplot.online/normalTree.html?originalJsonDataUri=/static/xiaochiPlot/gallery/normalTree/add_symbol.json" target="_blank"><strong>View example tree and data</strong></a></p>
 <ul>
 <li>Example data</li>
 </ul>
-<p>At least one column of categories is needed. You can select multiple columns of category data when adding this dataset layer. If you leave a cell blank, no symbol of corresponding node will be added.</p>
+<p>At least one column of categories is needed. You can select multiple columns of category data when adding this dataset layer. If you leave a cell blank, no symbol of corresponding node will be added. ==Internal node IDs== are supported.</p>
 <table>
 <thead>
 <tr>
@@ -944,11 +943,17 @@
         <img src="img/add_symbol/symbol_multiple_columns.jpg" alt="canvasSetting-1" style="width:100%;object-fit: scale-down;">
         <h4 style="text-align: center;color:#66c2a5;" id="multiple-columns">multiple columns</h4>
     </div></div></p>
-
-<p><div style="display:flex;justify-content: center;flex-direction: column;align-items: center;">
-        <img src="img/add_symbol/symbol_one_column_atTip.jpg" alt="canvasSetting-1" style="width:50%;object-fit: scale-down;">
+<p>
+<div style="display:flex;justify-content: center;">
+    <div>
+        <img src="img/add_symbol/symbol_one_column_atTip.jpg" alt="canvasSetting-1" style="width:100%;object-fit: scale-down;">
         <h4 style="text-align: center;color:#66c2a5;" id="at-branch-tip-by-default">at branch tip (by default)</h4>
-    </div></p>
+    </div>
+    <div>
+        <img src="img/add_symbol/symbol_internal_nodes.jpg" alt="canvasSetting-1" style="width:100%;object-fit: scale-down;">
+        <h4 style="text-align: center;color:#66c2a5;" id="internal-nodes">internal nodes</h4>
+    </div></div></p>
+
 
 
 <ul>
@@ -1077,7 +1082,7 @@ MK096443    A    F
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"add symbol","level":"1.3.2.8","depth":3,"next":{"title":"pie chart","level":"1.3.2.9","depth":3,"path":"tree_annotation/dataset_layer/pie_chart.md","ref":"tree_annotation/dataset_layer/pie_chart.md","articles":[]},"previous":{"title":"color block of leaves name","level":"1.3.2.7","depth":3,"path":"tree_annotation/dataset_layer/color_block_of_leaves_name.md","ref":"tree_annotation/dataset_layer/color_block_of_leaves_name.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"tree_annotation/dataset_layer/add_symbol.md","mtime":"2022-12-11T14:09:49.304Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-09-19T02:18:18.186Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"add symbol","level":"1.3.2.8","depth":3,"next":{"title":"pie chart","level":"1.3.2.9","depth":3,"path":"tree_annotation/dataset_layer/pie_chart.md","ref":"tree_annotation/dataset_layer/pie_chart.md","articles":[]},"previous":{"title":"color block of leaves name","level":"1.3.2.7","depth":3,"path":"tree_annotation/dataset_layer/color_block_of_leaves_name.md","ref":"tree_annotation/dataset_layer/color_block_of_leaves_name.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"tree_annotation/dataset_layer/add_symbol.md","mtime":"2023-10-30T03:05:39.920Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-10-30T03:05:55.861Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
