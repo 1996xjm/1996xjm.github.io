@@ -1,4 +1,4 @@
-import {XYPlot} from "/static/xiaochiPlot/minJS/XYPlot.min.js"
+import {XYPlot} from "https://1996xjm.github.io/chiplot/js/XYPlot.min.js"
 
 
 class ScatterPlot extends XYPlot{
