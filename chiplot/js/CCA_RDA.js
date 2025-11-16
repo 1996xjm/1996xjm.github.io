@@ -1,5 +1,5 @@
 
-import {ScatterPlot} from "/static/xiaochiPlot/js/scatter.js"
+import {ScatterPlot} from "https://1996xjm.github.io/chiplot/js/scatter.js"
 
 
 class CCARDAPlot extends ScatterPlot{
