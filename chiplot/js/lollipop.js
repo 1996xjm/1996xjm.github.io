@@ -1,4 +1,4 @@
-import {XYPlot} from "/static/xiaochiPlot/minJS/XYPlot.min.js"
+import {XYPlot} from "/chiplot/minJS/XYPlot.min.js"
 
 
 class LollipopPlot extends XYPlot{
