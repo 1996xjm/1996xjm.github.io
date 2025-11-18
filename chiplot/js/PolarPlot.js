@@ -1,6 +1,6 @@
 //极坐标系
 
-import {MainPlot} from "/static/xiaochiPlot/minJS/mainplot.min.js"
+import {MainPlot} from "/chiplot/minJS/mainplot.min.js"
 
 class PolarPlot extends MainPlot{
     constructor(){
