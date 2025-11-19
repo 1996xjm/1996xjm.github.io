@@ -1,0 +1,11 @@
+ID	GeneRatio	Description	Qvalue	Count
+GO1	0.040625	Wnt signaling pathway	0.01680096	13
+GO2	0.040625	cell-cell signaling by wnt	0.0171473	13
+GO3	0.021875	cell cycle G1/S phase transition	0.035797856	7
+GO4	0.028125	Extrinsic apoptotic signaling pathway	0.024164034	9
+GO5	0.021875	ERBB signaling pathway	0.001836081	7
+GO6	0.040935	ERK1 and ERK2 cascade	0.001086508	14
+GO7	0.049707	regulation of cell growth	0.002228511	17
+GO8	0.043859	regulation of cell-cell adhesion	0.005075219	15
+GO9	0.029239	neuron apoptotic process	0.040284925	10
+GO10	0.043859	neuron	0.005075219	15

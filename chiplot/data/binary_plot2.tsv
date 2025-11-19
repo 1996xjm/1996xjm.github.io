@@ -1,0 +1,23 @@
+level3_pathway_name	Ks-bottom	Ts-top	Ts-middle2	Ts-bottom.A	Ts-45.A	Ts-44.A	Ts-99.A	Ts-bottom.B
+Acarbose	0	1	1	0	0	0	0	1
+Betalain biosynthesis	0	1	1	0	0	0	0	1
+kkk1	1	1	1	0	0	0	1	1
+kkk2	0	1	1	0	0	0	0	1
+kkk 3	1	0	1	1	1	1	1	1
+Caffeine metabolism	0	1	1	1	0	1	1	1
+Carbapenem biosynthesis	0	1	1	1	1	0	1	1
+Clavulanic acid biosynthesis	1	0	1	0	0	0	0	0
+Flavonoid biosynthesis	0	1	1	0	0	0	0	1
+Glucosinolate biosynthesis	0	1	1	0	0	1	0	1
+Isoflavonoid biosynthesis	1	1	1	0	0	0	0	1
+Isoquinoline alkaloid biosynthesis	0	1	1	0	0	0	0	1
+Monobactam biosynthesis	0	1	1	1	1	1	1	1
+Neomycin, kanamycin	1	0	1	1	1	1	1	1
+Novobiocin biosynthesis	0	1	1	0	0	0	0	1
+Penicillins	0	1	1	0	0	0	0	1
+Phenazine biosynthesis	1	1	1	0	0	0	0	1
+Phenylpropanoid biosynthesis	0	1	1	0	1	1	1	1
+Prodigiosin biosynthesis	0	0	1	0	0	0	0	1
+Staurosporine biosynthesis	0	1	1	0	0	0	0	1
+Streptomycin biosynthesis	0	1	1	0	0	0	0	1
+Tropane	0	1	1	1	1	1	1	0

@@ -1,0 +1,9 @@
+level3_pathway_name	Acarbose	Betalain biosynthesis	kkk1	kkk2	kkk 3	Caffeine metabolism	Carbapenem biosynthesis	Clavulanic acid biosynthesis	Flavonoid biosynthesis	Glucosinolate biosynthesis	Isoflavonoid biosynthesis	Isoquinoline alkaloid biosynthesis	Monobactam biosynthesis	"Neomycin, kanamycin"	Novobiocin biosynthesis	Penicillins	Phenazine biosynthesis	Phenylpropanoid biosynthesis	Prodigiosin biosynthesis	Staurosporine biosynthesis	Streptomycin biosynthesis	Tropane
+Ks-bottom	0	0	1	0	1	0	0	1	0	0	1	0	0	1	0	0	1	0	0	0	0	0
+Ts-top	1	1	1	1	0	1	1	0	1	1	1	1	1	0	1	1	1	1	0	1	1	1
+Ts-middle2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+Ts-bottom.A	0	0	0	0	1	1	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1
+Ts-45.A	0	0	0	0	1	0	1	0	0	0	0	0	1	1	0	0	0	1	0	0	0	1
+Ts-44.A	0	0	0	0	1	1	0	0	0	1	0	0	1	1	0	0	0	1	0	0	0	1
+Ts-99.A	0	0	1	0	1	1	1	0	0	0	0	0	1	1	0	0	0	1	0	0	0	1
+Ts-bottom.B	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	0

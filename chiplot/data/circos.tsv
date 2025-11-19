@@ -1,0 +1,197 @@
+Feature ID	Type	Contig	start	end	Frame	strand	Length (bp)	Function	Subsystem	NCBI GI	locus
+fig|670.3573.peg.180	CDS	NODE_11_length_184808_cov_107.121561	622	113	-1	-	510	Transcriptional regulator, MerR family	Cobalt-zinc-cadmium resistance
+fig|670.3573.peg.181	CDS	NODE_11_length_184808_cov_107.121561	717	842	3	+	126	hypothetical protein	- none -
+fig|670.3573.peg.182	CDS	NODE_11_length_184808_cov_107.121561	1688	1398	-2	-	291	mRNA interferase RelE	- none -
+fig|670.3573.peg.183	CDS	NODE_11_length_184808_cov_107.121561	1926	1678	-3	-	249	RelB/StbD replicon stabilization protein (antitoxin to RelE/StbE)	- none -
+fig|670.3573.peg.184	CDS	NODE_11_length_184808_cov_107.121561	2216	2902	2	+	687	Transposase	- none -
+fig|670.3573.peg.185	CDS	NODE_11_length_184808_cov_107.121561	3052	2903	-1	-	150	hypothetical protein	- none -
+fig|670.3573.peg.186	CDS	NODE_11_length_184808_cov_107.121561	3642	4058	3	+	417	hypothetical protein	- none -
+fig|670.3573.peg.187	CDS	NODE_11_length_184808_cov_107.121561	4082	4576	2	+	495	hypothetical protein	- none -
+fig|670.3573.peg.188	CDS	NODE_11_length_184808_cov_107.121561	5855	5965	2	+	111	hypothetical protein	- none -
+fig|670.3573.peg.189	CDS	NODE_11_length_184808_cov_107.121561	6173	6286	2	+	114	hypothetical protein	- none -
+fig|670.3573.peg.190	CDS	NODE_11_length_184808_cov_107.121561	7080	6454	-3	-	627	Transporter, LysE family	- none -
+fig|670.3573.peg.191	CDS	NODE_11_length_184808_cov_107.121561	7278	7108	-3	-	171	Acetyltransferase, GNAT family	- none -
+fig|670.3573.peg.192	CDS	NODE_11_length_184808_cov_107.121561	7653	7426	-3	-	228	GNAT family acetyltransferase Bsu1853 (YoaA)	- none -
+fig|670.3573.peg.193	CDS	NODE_11_length_184808_cov_107.121561	7841	7674	-2	-	168	Acetyltransferase	- none -
+fig|670.3573.peg.194	CDS	NODE_11_length_184808_cov_107.121561	8178	7816	-3	-	363	hypothetical protein	- none -
+fig|670.3573.peg.195	CDS	NODE_11_length_184808_cov_107.121561	8738	8292	-2	-	447	hypothetical protein	- none -
+fig|670.3573.peg.196	CDS	NODE_11_length_184808_cov_107.121561	9080	9541	2	+	462	hypothetical protein	- none -
+fig|670.3573.peg.197	CDS	NODE_11_length_184808_cov_107.121561	11107	9632	-1	-	1476	Putative symporter in putrescine utilization cluster	Putrescine utilization pathways
+fig|670.3573.peg.198	CDS	NODE_11_length_184808_cov_107.121561	12469	11126	-1	-	1344	Gamma-glutamyl-putrescine synthetase (EC 6.3.1.11)	Putrescine utilization pathways
+fig|670.3573.peg.199	CDS	NODE_11_length_184808_cov_107.121561	12810	13556	3	+	747	Gamma-glutamyl-GABA hydrolase (EC 3.5.1.94)	Putrescine utilization pathways
+fig|670.3573.peg.200	CDS	NODE_11_length_184808_cov_107.121561	13575	14132	3	+	558	Putrescine utilization regulator	Putrescine utilization pathways
+fig|670.3573.peg.201	CDS	NODE_11_length_184808_cov_107.121561	14168	15652	2	+	1485	Gamma-glutamyl-aminobutyraldehyde dehydrogenase (EC 1.2.1.-)	Putrescine utilization pathways
+fig|670.3573.peg.202	CDS	NODE_11_length_184808_cov_107.121561	15690	16967	3	+	1278	Gamma-glutamyl-putrescine oxidase (EC1.4.3.-)	Putrescine utilization pathways
+fig|670.3573.peg.203	CDS	NODE_11_length_184808_cov_107.121561	16985	17851	2	+	867	N-carbamoylputrescine amidase (EC 3.5.1.53)	- none -
+fig|670.3573.peg.204	CDS	NODE_11_length_184808_cov_107.121561	17864	18946	2	+	1083	Agmatine deiminase (EC 3.5.3.12)	Arginine and Ornithine Degradation; <br>Polyamine Metabolism
+fig|670.3573.peg.205	CDS	NODE_11_length_184808_cov_107.121561	19001	20428	2	+	1428	Gamma-glutamyl-aminobutyraldehyde dehydrogenase (EC 1.2.1.-)	Putrescine utilization pathways
+fig|670.3573.peg.206	CDS	NODE_11_length_184808_cov_107.121561	20443	21714	1	+	1272	Putrescine-inducible gamma-aminobutyrate:alpha-ketoglutarate aminotransferase (EC 2.6.1.19)	- none -
+fig|670.3573.peg.207	CDS	NODE_11_length_184808_cov_107.121561	21978	22994	3	+	1017	Manganese-dependent inorganic pyrophosphatase (EC 3.6.1.1)	Phosphate metabolism
+fig|670.3573.peg.208	CDS	NODE_11_length_184808_cov_107.121561	23566	24855	1	+	1290	Rtn protein	- none -
+fig|670.3573.peg.209	CDS	NODE_11_length_184808_cov_107.121561	25122	25313	3	+	192	FIG01200746: hypothetical protein	- none -
+fig|670.3573.peg.210	CDS	NODE_11_length_184808_cov_107.121561	25368	27578	3	+	2211	hypothetical protein	- none -
+fig|670.3573.peg.211	CDS	NODE_11_length_184808_cov_107.121561	27710	28351	2	+	642	Ser-tRNA(Ala) deacylase @ Gly-tRNA(Ala) deacylase	tRNA aminoacylation, Ala; <br>tRNA aminoacylation, Ala
+fig|670.3573.peg.212	CDS	NODE_11_length_184808_cov_107.121561	28486	29313	1	+	828	HTH-type transcriptional regulator gadW	- none -
+fig|670.3573.peg.213	CDS	NODE_11_length_184808_cov_107.121561	30268	29381	-1	-	888	Permease of the drug/metabolite transporter (DMT) superfamily	- none -
+fig|670.3573.peg.214	CDS	NODE_11_length_184808_cov_107.121561	30389	30871	2	+	483	Transcriptional regulator, MarR family	- none -
+fig|670.3573.peg.215	CDS	NODE_11_length_184808_cov_107.121561	30905	31258	2	+	354	hypothetical protein	- none -
+fig|670.3573.peg.216	CDS	NODE_11_length_184808_cov_107.121561	31383	31817	3	+	435	Putative PRS2 protein	- none -
+fig|670.3573.peg.217	CDS	NODE_11_length_184808_cov_107.121561	31908	32450	3	+	543	Adenylate cyclase (EC 4.6.1.1)	cAMP signaling in bacteria
+fig|670.3573.peg.218	CDS	NODE_11_length_184808_cov_107.121561	32634	32966	3	+	333	FIG01202175: hypothetical protein	- none -
+fig|670.3573.peg.219	CDS	NODE_11_length_184808_cov_107.121561	32981	33112	2	+	132	hypothetical protein	- none -
+fig|670.3573.peg.220	CDS	NODE_11_length_184808_cov_107.121561	33149	33775	2	+	627	Sugar O-acetyltransferase	- none -
+fig|670.3573.peg.221	CDS	NODE_11_length_184808_cov_107.121561	34943	33855	-2	-	1089	ABC-type sulfate transport system, permease component	- none -
+fig|670.3573.peg.222	CDS	NODE_11_length_184808_cov_107.121561	35424	34945	-3	-	480	FIG01203079: hypothetical protein	- none -
+fig|670.3573.peg.223	CDS	NODE_11_length_184808_cov_107.121561	38591	35436	-2	-	3156	FOG: CheY-like receiver	- none -
+fig|670.3573.peg.224	CDS	NODE_11_length_184808_cov_107.121561	40925	38766	-2	-	2160	c-di-GMP phosphodiesterase (EC 3.1.4.52)	- none -
+fig|670.3573.peg.225	CDS	NODE_11_length_184808_cov_107.121561	41854	40925	-1	-	930	ABC transporter, substrate-binding protein (cluster 12, methionine/phosphonates)	- none -
+fig|670.3573.peg.226	CDS	NODE_11_length_184808_cov_107.121561	42970	42185	-1	-	786	Type IV pilus (Tfp) assembly protein PilF	- none -
+fig|670.3573.peg.227	CDS	NODE_11_length_184808_cov_107.121561	44001	43060	-3	-	942	Homoserine O-succinyltransferase (EC 2.3.1.46)	Methionine Biosynthesis
+fig|670.3573.peg.228	CDS	NODE_11_length_184808_cov_107.121561	44379	44738	3	+	360	hypothetical protein	- none -
+fig|670.3573.peg.229	CDS	NODE_11_length_184808_cov_107.121561	46277	44850	-2	-	1428	Putative amino acid transporter	- none -
+fig|670.3573.peg.230	CDS	NODE_11_length_184808_cov_107.121561	46573	46686	1	+	114	hypothetical protein	- none -
+fig|670.3573.peg.231	CDS	NODE_11_length_184808_cov_107.121561	46877	47923	2	+	1047	Lipid A biosynthesis lauroyl acyltransferase (EC 2.3.1.241)	- none -
+fig|670.3573.peg.232	CDS	NODE_11_length_184808_cov_107.121561	49486	48014	-1	-	1473	Thermostable carboxypeptidase 1 (EC 3.4.17.19)	Metallocarboxypeptidases (EC 3.4.17.-)
+fig|670.3573.peg.233	CDS	NODE_11_length_184808_cov_107.121561	49660	50343	1	+	684	Transporter, LysE family	- none -
+fig|670.3573.peg.234	CDS	NODE_11_length_184808_cov_107.121561	50344	50910	1	+	567	FIG01203265: hypothetical protein	- none -
+fig|670.3573.peg.235	CDS	NODE_11_length_184808_cov_107.121561	52395	51019	-3	-	1377	Sodium/glycine symporter GlyP	Glycine cleavage system
+fig|670.3573.peg.236	CDS	NODE_11_length_184808_cov_107.121561	53494	52910	-1	-	585	hypothetical protein	- none -
+fig|670.3573.peg.237	CDS	NODE_11_length_184808_cov_107.121561	53614	54138	1	+	525	hypothetical protein	- none -
+fig|670.3573.peg.238	CDS	NODE_11_length_184808_cov_107.121561	55069	54593	-1	-	477	hypothetical protein	- none -
+fig|670.3573.peg.239	CDS	NODE_11_length_184808_cov_107.121561	56031	55081	-3	-	951	hypothetical protein	- none -
+fig|670.3573.peg.240	CDS	NODE_11_length_184808_cov_107.121561	56504	56136	-2	-	369	hypothetical protein	- none -
+fig|670.3573.peg.241	CDS	NODE_11_length_184808_cov_107.121561	56718	56497	-3	-	222	hypothetical protein	- none -
+fig|670.3573.peg.242	CDS	NODE_11_length_184808_cov_107.121561	56904	56728	-3	-	177	hypothetical protein	- none -
+fig|670.3573.peg.243	CDS	NODE_11_length_184808_cov_107.121561	57103	56906	-1	-	198	hypothetical protein	- none -
+fig|670.3573.peg.244	CDS	NODE_11_length_184808_cov_107.121561	57590	57114	-2	-	477	hypothetical protein	- none -
+fig|670.3573.peg.245	CDS	NODE_11_length_184808_cov_107.121561	57839	58027	2	+	189	hypothetical protein	- none -
+fig|670.3573.peg.246	CDS	NODE_11_length_184808_cov_107.121561	58100	58762	2	+	663	hypothetical protein	- none -
+fig|670.3573.peg.247	CDS	NODE_11_length_184808_cov_107.121561	59158	59538	1	+	381	hypothetical protein	- none -
+fig|670.3573.peg.248	CDS	NODE_11_length_184808_cov_107.121561	59575	59934	1	+	360	hypothetical protein	- none -
+fig|670.3573.peg.249	CDS	NODE_11_length_184808_cov_107.121561	59963	61504	2	+	1542	hypothetical protein	- none -
+fig|670.3573.peg.250	CDS	NODE_11_length_184808_cov_107.121561	61568	63694	2	+	2127	Phage portal (connector) protein	- none -
+fig|670.3573.peg.251	CDS	NODE_11_length_184808_cov_107.121561	63709	63933	1	+	225	hypothetical protein	- none -
+fig|670.3573.peg.252	CDS	NODE_11_length_184808_cov_107.121561	63926	64978	2	+	1053	hypothetical protein	- none -
+fig|670.3573.peg.253	CDS	NODE_11_length_184808_cov_107.121561	65199	65864	3	+	666	hypothetical protein	- none -
+fig|670.3573.peg.254	CDS	NODE_11_length_184808_cov_107.121561	65875	66489	1	+	615	hypothetical protein	- none -
+fig|670.3573.peg.255	CDS	NODE_11_length_184808_cov_107.121561	66489	66929	3	+	441	hypothetical protein	- none -
+fig|670.3573.peg.256	CDS	NODE_11_length_184808_cov_107.121561	66929	68428	2	+	1500	hypothetical protein	- none -
+fig|670.3573.peg.257	CDS	NODE_11_length_184808_cov_107.121561	68479	70650	1	+	2172	hypothetical protein	- none -
+fig|670.3573.peg.258	CDS	NODE_11_length_184808_cov_107.121561	70652	71083	2	+	432	hypothetical protein	- none -
+fig|670.3573.peg.259	CDS	NODE_11_length_184808_cov_107.121561	71076	71363	3	+	288	hypothetical protein	- none -
+fig|670.3573.peg.260	CDS	NODE_11_length_184808_cov_107.121561	71645	71391	-2	-	255	hypothetical protein	- none -
+fig|670.3573.peg.261	CDS	NODE_11_length_184808_cov_107.121561	72492	71686	-3	-	807	hypothetical protein	- none -
+fig|670.3573.peg.262	CDS	NODE_11_length_184808_cov_107.121561	72740	72594	-2	-	147	hypothetical protein	- none -
+fig|670.3573.peg.263	CDS	NODE_11_length_184808_cov_107.121561	73023	72781	-3	-	243	hypothetical protein	- none -
+fig|670.3573.peg.264	CDS	NODE_11_length_184808_cov_107.121561	74517	73129	-3	-	1389	putative integrase	- none -
+fig|670.3573.peg.265	CDS	NODE_11_length_184808_cov_107.121561	75149	75307	2	+	159	FIG01199787: hypothetical protein	- none -
+fig|670.3573.peg.266	CDS	NODE_11_length_184808_cov_107.121561	75339	76073	3	+	735	Chromosome segregation ATPase	- none -
+fig|670.3573.peg.267	CDS	NODE_11_length_184808_cov_107.121561	76538	76155	-2	-	384	hypothetical protein	- none -
+fig|670.3573.peg.268	CDS	NODE_11_length_184808_cov_107.121561	77005	76640	-1	-	366	FIG01201206: hypothetical protein	- none -
+fig|670.3573.peg.269	CDS	NODE_11_length_184808_cov_107.121561	79089	77164	-3	-	1926	Phosphatidylglycerol--membrane-oligosaccharide glycerophosphotransferase (EC 2.7.8.20)	- none -
+fig|670.3573.peg.270	CDS	NODE_11_length_184808_cov_107.121561	80729	79317	-2	-	1413	Two-component system sensor histidine kinase	- none -
+fig|670.3573.peg.271	CDS	NODE_11_length_184808_cov_107.121561	81375	80719	-3	-	657	Two-component transcriptional response regulator, OmpR family	- none -
+fig|670.3573.peg.272	CDS	NODE_11_length_184808_cov_107.121561	82014	81379	-3	-	636	FIG01200150: hypothetical protein	- none -
+fig|670.3573.peg.273	CDS	NODE_11_length_184808_cov_107.121561	82823	82029	-2	-	795	Oxidoreductase, short-chain dehydrogenase/reductase family	- none -
+fig|670.3573.peg.274	CDS	NODE_11_length_184808_cov_107.121561	83515	82832	-1	-	684	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3) / long-chain acyl-CoA synthetase	Biotin biosynthesis; <br>Fatty acid metabolism cluster
+fig|670.3573.peg.275	CDS	NODE_11_length_184808_cov_107.121561	85100	83541	-2	-	1560	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)	Biotin biosynthesis; <br>Fatty acid metabolism cluster
+fig|670.3573.peg.276	CDS	NODE_11_length_184808_cov_107.121561	85792	85181	-1	-	612	Thermostable hemolysin delta-VPH	- none -
+fig|670.3573.peg.277	CDS	NODE_11_length_184808_cov_107.121561	87076	86069	-1	-	1008	Glycine betaine/L-proline transport substrate-binding protein ProX (TC 3.A.1.12.1)	- none -
+fig|670.3573.peg.278	CDS	NODE_11_length_184808_cov_107.121561	88154	87069	-2	-	1086	Glycine betaine/L-proline transport system permease protein ProW (TC 3.A.1.12.1)	- none -
+fig|670.3573.peg.279	CDS	NODE_11_length_184808_cov_107.121561	89345	88158	-2	-	1188	Glycine betaine/L-proline transport ATP-binding protein ProV (TC 3.A.1.12.1)	- none -
+fig|670.3573.peg.280	CDS	NODE_11_length_184808_cov_107.121561	89784	91664	3	+	1881	Predicted signal-transduction protein containing cAMP-binding and CBS domains	CBSS-211586.9.peg.2560; <br>CBSS-342610.3.peg.1536; <br>cAMP signaling in bacteria
+fig|670.3573.peg.281	CDS	NODE_11_length_184808_cov_107.121561	91661	92407	2	+	747	DEDDh 3&#39;-5&#39; exonuclease domain of the epsilon subunit of DNA polymerase III	DNA replication strays
+fig|670.3573.peg.282	CDS	NODE_11_length_184808_cov_107.121561	92596	94257	1	+	1662	High-affinity choline uptake protein BetT	Choline and Betaine Uptake and Betaine Biosynthesis; <br>Choline uptake and conversion to betaine clusters
+fig|670.3573.peg.283	CDS	NODE_11_length_184808_cov_107.121561	94559	95092	2	+	534	L-2,4-diaminobutyric acid acetyltransferase (EC 2.3.1.178)	- none -
+fig|670.3573.peg.284	CDS	NODE_11_length_184808_cov_107.121561	95127	96392	3	+	1266	Diaminobutyrate--2-oxoglutarate transaminase (EC 2.6.1.76)	- none -
+fig|670.3573.peg.285	CDS	NODE_11_length_184808_cov_107.121561	96408	96794	3	+	387	L-ectoine synthase (EC 4.2.1.108)	- none -
+fig|670.3573.peg.286	CDS	NODE_11_length_184808_cov_107.121561	96886	98310	1	+	1425	Aspartokinase (EC 2.7.2.4) associated with ectoine biosynthesis	- none -
+fig|670.3573.peg.287	CDS	NODE_11_length_184808_cov_107.121561	99368	98382	-2	-	987	Cytochrome c551 peroxidase (EC 1.11.1.5)	Protection from Reactive Oxygen Species
+fig|670.3573.peg.288	CDS	NODE_11_length_184808_cov_107.121561	100923	99772	-3	-	1152	Efflux ABC transporter, permease protein	- none -
+fig|670.3573.peg.289	CDS	NODE_11_length_184808_cov_107.121561	102086	100920	-2	-	1167	Domain of unknown function / Efflux ABC transporter, permease protein	- none -
+fig|670.3573.peg.290	CDS	NODE_11_length_184808_cov_107.121561	103087	102107	-1	-	981	Membrane-fusion protein	- none -
+fig|670.3573.peg.291	CDS	NODE_11_length_184808_cov_107.121561	104506	103091	-1	-	1416	Efflux transport system, outer membrane factor (OMF) lipoprotein	- none -
+fig|670.3573.peg.292	CDS	NODE_11_length_184808_cov_107.121561	104868	104641	-3	-	228	hypothetical protein	- none -
+fig|670.3573.peg.293	CDS	NODE_11_length_184808_cov_107.121561	105364	106983	1	+	1620	Tricarboxylate transport sensor protein TctE => Citrate response regulator CitA	- none -
+fig|670.3573.peg.294	CDS	NODE_11_length_184808_cov_107.121561	106980	107666	3	+	687	Tricarboxylate transport transcriptional regulator TctD => Citrate response regulator CitB	- none -
+fig|670.3573.peg.295	CDS	NODE_11_length_184808_cov_107.121561	108319	109821	1	+	1503	Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)	Pentose phosphate pathway
+fig|670.3573.peg.296	CDS	NODE_11_length_184808_cov_107.121561	109818	110534	3	+	717	6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type	Pentose phosphate pathway
+fig|670.3573.peg.297	CDS	NODE_11_length_184808_cov_107.121561	110574	112022	3	+	1449	6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)	D-gluconate and ketogluconates metabolism; <br>Pentose phosphate pathway
+fig|670.3573.peg.298	CDS	NODE_11_length_184808_cov_107.121561	112255	112797	1	+	543	putative membrane protein	- none -
+fig|670.3573.peg.299	CDS	NODE_11_length_184808_cov_107.121561	112802	112987	2	+	186	hypothetical protein	- none -
+fig|670.3573.peg.300	CDS	NODE_11_length_184808_cov_107.121561	113497	113294	-1	-	204	FIG01200865: hypothetical protein	- none -
+fig|670.3573.peg.301	CDS	NODE_11_length_184808_cov_107.121561	114077	114214	2	+	138	FIG01199928: hypothetical protein	- none -
+fig|670.3573.peg.302	CDS	NODE_11_length_184808_cov_107.121561	116035	114275	-1	-	1761	sigma-54-dependent transcriptional regulator	- none -
+fig|670.3573.peg.303	CDS	NODE_11_length_184808_cov_107.121561	116271	117791	3	+	1521	Aldehyde dehydrogenase (EC 1.2.1.3)	Methylglyoxal Metabolism; <br>Methylglyoxal Metabolism; <br>Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate
+fig|670.3573.peg.304	CDS	NODE_11_length_184808_cov_107.121561	118210	117899	-1	-	312	FIG01200721: hypothetical protein	- none -
+fig|670.3573.peg.305	CDS	NODE_11_length_184808_cov_107.121561	118664	118218	-2	-	447	Unknown, probably involved in type III secretion	Type III secretion systems
+fig|670.3573.peg.306	CDS	NODE_11_length_184808_cov_107.121561	119053	119469	1	+	417	Type III secretion transporter lipoprotein (YscW,VirG)	Type III secretion systems
+fig|670.3573.peg.307	CDS	NODE_11_length_184808_cov_107.121561	119634	119750	3	+	117	hypothetical protein	- none -
+fig|670.3573.peg.308	CDS	NODE_11_length_184808_cov_107.121561	120092	120952	2	+	861	Type III secretion thermoregulatory protein (LcrF,VirF,transcription regulation of virulence plasmid)	Type III secretion systems
+fig|670.3573.peg.309	CDS	NODE_11_length_184808_cov_107.121561	121102	122082	1	+	981	Type III secretion negative regulator (LscZ)	Type III secretion systems
+fig|670.3573.peg.310	CDS	NODE_11_length_184808_cov_107.121561	122095	122523	1	+	429	Type III secretion chaperone protein for YopN (SycN,YscB)	Type III secretion systems
+fig|670.3573.peg.311	CDS	NODE_11_length_184808_cov_107.121561	122523	124409	3	+	1887	Type III secretion outermembrane pore forming protein (YscC,MxiD,HrcC, InvG)	Type III secretion systems
+fig|670.3573.peg.312	CDS	NODE_11_length_184808_cov_107.121561	124415	125716	2	+	1302	Type III secretion inner membrane protein (YscD,homologous to flagellar export components)	Type III secretion systems
+fig|670.3573.peg.313	CDS	NODE_11_length_184808_cov_107.121561	125703	125912	3	+	210	Type III secretion protein (YscE)	Type III secretion systems
+fig|670.3573.peg.314	CDS	NODE_11_length_184808_cov_107.121561	125924	126172	2	+	249	Type III secretion cytoplasmic protein (YscF)	Type III secretion systems
+fig|670.3573.peg.315	CDS	NODE_11_length_184808_cov_107.121561	126176	126535	2	+	360	Type III secretion spans bacterial envelope protein (YscG)	Type III secretion systems
+fig|670.3573.peg.316	CDS	NODE_11_length_184808_cov_107.121561	126532	127158	1	+	627	Type III secretion effector protein (YopR, encoded by YscH)	Type III secretion systems
+fig|670.3573.peg.317	CDS	NODE_11_length_184808_cov_107.121561	127167	127511	3	+	345	Type III secretion cytoplasmic protein (YscI)	Type III secretion systems
+fig|670.3573.peg.318	CDS	NODE_11_length_184808_cov_107.121561	127511	128257	2	+	747	Type III secretion bridge between inner and outermembrane lipoprotein (YscJ,HrcJ,EscJ, PscJ)	Type III secretion systems
+fig|670.3573.peg.319	CDS	NODE_11_length_184808_cov_107.121561	128250	128915	3	+	666	Type III secretion cytoplasmic protein (YscK)	Type III secretion systems
+fig|670.3573.peg.320	CDS	NODE_11_length_184808_cov_107.121561	128894	129532	2	+	639	Type III secretion cytoplasmic protein (YscL)	Type III secretion systems
+fig|670.3573.peg.321	CDS	NODE_11_length_184808_cov_107.121561	129746	130174	2	+	429	putative type III chaperone	- none -
+fig|670.3573.peg.322	CDS	NODE_11_length_184808_cov_107.121561	130178	131341	2	+	1164	hypothetical protein	- none -
+fig|670.3573.peg.323	CDS	NODE_11_length_184808_cov_107.121561	131516	131343	-2	-	174	hypothetical protein	- none -
+fig|670.3573.peg.324	CDS	NODE_11_length_184808_cov_107.121561	131584	132033	1	+	450	FIG01200647: hypothetical protein	- none -
+fig|670.3573.peg.325	CDS	NODE_11_length_184808_cov_107.121561	132044	133021	2	+	978	hypothetical protein	- none -
+fig|670.3573.peg.326	CDS	NODE_11_length_184808_cov_107.121561	133248	133706	3	+	459	hypothetical protein	- none -
+fig|670.3573.peg.327	CDS	NODE_11_length_184808_cov_107.121561	133716	135194	3	+	1479	hypothetical protein	- none -
+fig|670.3573.peg.328	CDS	NODE_11_length_184808_cov_107.121561	135893	135267	-2	-	627	FIG01204052: hypothetical protein	- none -
+fig|670.3573.peg.329	CDS	NODE_11_length_184808_cov_107.121561	136919	135981	-2	-	939	Dienelactone hydrolase and related enzymes	- none -
+fig|670.3573.peg.330	CDS	NODE_11_length_184808_cov_107.121561	137905	136991	-1	-	915	Dienelactone hydrolase and related enzymes	- none -
+fig|670.3573.peg.331	CDS	NODE_11_length_184808_cov_107.121561	138034	138951	1	+	918	Transcriptional regulator, LysR family	- none -
+fig|670.3573.peg.332	CDS	NODE_11_length_184808_cov_107.121561	140117	139062	-2	-	1056	Type III secretion inner membrane protein (YscU,SpaS,EscU,HrcU,SsaU, homologous to flagellar export components)	Type III secretion systems
+fig|670.3573.peg.333	CDS	NODE_11_length_184808_cov_107.121561	140918	140133	-2	-	786	Type III secretion inner membrane protein (YscT,HrcT,SpaR,EscT,EpaR1,homologous to flagellar export components)	Type III secretion systems
+fig|670.3573.peg.334	CDS	NODE_11_length_184808_cov_107.121561	141181	140915	-1	-	267	Type III secretion inner membrane protein (YscS,homologous to flagellar export components)	Type III secretion systems
+fig|670.3573.peg.335	CDS	NODE_11_length_184808_cov_107.121561	141845	141195	-2	-	651	Type III secretion inner membrane protein (YscR,SpaR,HrcR,EscR,homologous to flagellar export components)	Type III secretion systems
+fig|670.3573.peg.336	CDS	NODE_11_length_184808_cov_107.121561	142807	141842	-1	-	966	Type III secretion inner membrane protein (YscQ,homologous to flagellar export components)	Type III secretion systems
+fig|670.3573.peg.337	CDS	NODE_11_length_184808_cov_107.121561	144144	142804	-3	-	1341	Type III secretion protein (YscP)	Type III secretion systems
+fig|670.3573.peg.338	CDS	NODE_11_length_184808_cov_107.121561	144615	144154	-3	-	462	Type III secretion spans bacterial envelope protein (YscO)	Type III secretion systems
+fig|670.3573.peg.339	CDS	NODE_11_length_184808_cov_107.121561	146078	144612	-2	-	1467	Type III secretion cytoplasmic ATP synthase (EC 3.6.3.14, YscN,SpaL,MxiB,HrcN,EscN)	Type III secretion systems
+fig|670.3573.peg.340	CDS	NODE_11_length_184808_cov_107.121561	146121	147014	3	+	894	Type III secretion outermembrane contact sensing protein( yopN,Yop4b,LcrE)	- none -
+fig|670.3573.peg.341	CDS	NODE_11_length_184808_cov_107.121561	146995	147279	1	+	285	Type III secretion outermembrane negative regulator of secretion (TyeA)	Type III secretion systems
+fig|670.3573.peg.342	CDS	NODE_11_length_184808_cov_107.121561	147266	147637	2	+	372	Type III secretion chaperone SycN	Type III secretion systems
+fig|670.3573.peg.343	CDS	NODE_11_length_184808_cov_107.121561	147637	148014	1	+	378	Type III secretion protein SctX	Type III secretion systems
+fig|670.3573.peg.344	CDS	NODE_11_length_184808_cov_107.121561	148020	148364	3	+	345	Chaperone protein YscY (Yop proteins translocation protein Y)	Type III secretion systems
+fig|670.3573.peg.345	CDS	NODE_11_length_184808_cov_107.121561	148357	150474	1	+	2118	Type III secretion inner membrane channel protein (LcrD,HrcV,EscV,SsaV)	Type III secretion systems
+fig|670.3573.peg.346	CDS	NODE_11_length_184808_cov_107.121561	150474	150887	3	+	414	Type III secretion low calcium response protein (LcrR)	Type III secretion systems
+fig|670.3573.peg.347	CDS	NODE_11_length_184808_cov_107.121561	150948	151232	3	+	285	Type III secretion cytoplasmic plug protein (LcrG)	Type III secretion systems
+fig|670.3573.peg.348	CDS	NODE_11_length_184808_cov_107.121561	151243	153060	1	+	1818	Type III secretion cytoplasmic LcrG inhibitor (LcrV,secretion and targeting control protein, V antigen)	Type III secretion systems
+fig|670.3573.peg.349	CDS	NODE_11_length_184808_cov_107.121561	153073	153561	1	+	489	Type III secretion chaperone protein for YopD (SycD)	Type III secretion systems
+fig|670.3573.peg.350	CDS	NODE_11_length_184808_cov_107.121561	153565	154764	1	+	1200	Type III secretion host injection protein (YopB)	Type III secretion systems
+fig|670.3573.peg.351	CDS	NODE_11_length_184808_cov_107.121561	154776	155780	3	+	1005	Type III secretion host injection and negative regulator protein (YopD)	Type III secretion systems
+fig|670.3573.peg.352	CDS	NODE_11_length_184808_cov_107.121561	156009	156980	3	+	972	TRAP transporter solute receptor, TAXI family precursor	TRAP Transporter unknown substrate 9
+fig|670.3573.peg.353	CDS	NODE_11_length_184808_cov_107.121561	157878	157108	-3	-	771	Uncharacterized UPF0721 integral membrane protein	- none -
+fig|670.3573.peg.354	CDS	NODE_11_length_184808_cov_107.121561	159660	158134	-3	-	1527	Tripartite tricarboxylate transporter TctA family	- none -
+fig|670.3573.peg.355	CDS	NODE_11_length_184808_cov_107.121561	160174	159680	-1	-	495	Tripartite tricarboxylate transporter TctB family	- none -
+fig|670.3573.peg.356	CDS	NODE_11_length_184808_cov_107.121561	161387	160416	-2	-	972	Tripartite tricarboxylate transporter TctC family	- none -
+fig|670.3573.peg.357	CDS	NODE_11_length_184808_cov_107.121561	161655	162053	3	+	399	Gfa-like protein	- none -
+fig|670.3573.peg.358	CDS	NODE_11_length_184808_cov_107.121561	162318	163031	3	+	714	Propionate catabolism operon transcriptional regulator of GntR family	- none -
+fig|670.3573.peg.359	CDS	NODE_11_length_184808_cov_107.121561	163044	163940	3	+	897	Methylisocitrate lyase (EC 4.1.3.30)	Methylcitrate cycle
+fig|670.3573.peg.360	CDS	NODE_11_length_184808_cov_107.121561	164072	165214	2	+	1143	2-methylcitrate synthase (EC 2.3.3.5)	Methylcitrate cycle
+fig|670.3573.peg.361	CDS	NODE_11_length_184808_cov_107.121561	165245	165385	2	+	141	hypothetical protein	- none -
+fig|670.3573.peg.362	CDS	NODE_11_length_184808_cov_107.121561	165442	168033	1	+	2592	2-methylcitrate dehydratase (2-methyl-trans-aconitate forming) (EC 4.2.1.117)	- none -
+fig|670.3573.peg.363	CDS	NODE_11_length_184808_cov_107.121561	168043	169239	1	+	1197	2-methylaconitate isomerase	Methylcitrate cycle
+fig|670.3573.peg.364	CDS	NODE_11_length_184808_cov_107.121561	169297	171174	1	+	1878	Propionate--CoA ligase (EC 6.2.1.17)	Methylcitrate cycle
+fig|670.3573.peg.365	CDS	NODE_11_length_184808_cov_107.121561	171370	171852	1	+	483	Histone acetyltransferase HPA2	- none -
+fig|670.3573.peg.366	CDS	NODE_11_length_184808_cov_107.121561	172052	173602	2	+	1551	hypothetical protein	- none -
+fig|670.3573.peg.367	CDS	NODE_11_length_184808_cov_107.121561	173840	175372	2	+	1533	Membrane-associated phospholipid phosphatase	- none -
+fig|670.3573.peg.368	CDS	NODE_11_length_184808_cov_107.121561	176293	175484	-1	-	810	Promiscuous sugar phosphatase YidA, haloacid dehalogenase-like phosphatase family	- none -
+fig|670.3573.peg.369	CDS	NODE_11_length_184808_cov_107.121561	176429	177109	2	+	681	7-carboxy-7-deazaguanine synthase (EC 4.3.99.3)	- none -
+fig|670.3573.peg.370	CDS	NODE_11_length_184808_cov_107.121561	177124	177822	1	+	699	7-cyano-7-deazaguanine synthase (EC 6.3.4.20)	- none -
+fig|670.3573.peg.371	CDS	NODE_11_length_184808_cov_107.121561	179807	177831	-2	-	1977	GGDEF domain protein	- none -
+fig|670.3573.peg.372	CDS	NODE_11_length_184808_cov_107.121561	180349	179996	-1	-	354	FIG01201286: hypothetical protein	- none -
+fig|670.3573.peg.373	CDS	NODE_11_length_184808_cov_107.121561	181120	180500	-1	-	621	T1SS peptidoglycan-associated lipoprotein LapL	Type I secretion system for aggregation
+fig|670.3573.peg.374	CDS	NODE_11_length_184808_cov_107.121561	182433	181123	-3	-	1311	Type I secretion system, outer membrane component LapE	Type I secretion system for aggregation
+fig|670.3573.peg.375	CDS	NODE_11_length_184808_cov_107.121561	182833	184806	1	+	1974	T1SS secreted agglutinin (RTX)	- none -

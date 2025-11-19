@@ -1,0 +1,23 @@
+level2_pathway_name	gene_abundance	type
+Lipid metabolism	4.246739356	type-A
+Metabolism of other amino acids	4.505277219	type-A
+Cell motility	-2.569844887	type-C
+Cell growth and death	3.69366911	type-A
+Metabolism of terpenoids and polyketides	3.942598147	type-A
+Signaling molecules and interaction	1	type-A
+Transcription	1.481748897	type-A
+Transport and catabolism	1.592960998	type-B
+Energy metabolism	15.62094888	type-B
+Cellular community	11.72587588	type-B
+Carbohydrate metabolism	10.94379436	type-B
+Membrane transport	-11.28720789	type-C
+Replication and repair	9.659765327	type-D
+Signal transduction	9.069927128	type-D
+"Folding, sorting and degradation"	-5.636875043	type-C
+Glycan biosynthesis and metabolism	6.270883099	type-D
+Xenobiotics biodegradation and metabolism	6.398559056	type-D
+Nucleotide metabolism	-6.58131204	type-C
+Biosynthesis of other secondary metabolites	6.362394786	type-D
+Translation	18.57523228	type-D
+Amino acid metabolism	-20.03978836	type-C
+Metabolism of cofactors and vitamins	19.78277255	type-D

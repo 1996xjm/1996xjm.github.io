@@ -1,0 +1,199 @@
+set1	set2	set3	set4	set5
+wceB	pseC	MA20_26530	MA20_07280	aer
+yibD	ydeN	iorA	dkgB	colS
+cps4I	atsA	wcaJ	ytbE	xylE
+wcaA	aslA	epsL	dkgA	cpxR
+wbxA	GALNS	cpsE	aRA11	desR
+exoO	mdsA	aer2	bdlA	narL
+flaA	ax21	yycF1	inhA	copR
+cheR	cyaA	ISPlu13C	gbdR	ragA
+cheR-7	add	HA62_15005	ftrA	nonF
+bphP	add_1	aer-1	thiJ	yfmJ
+MA20_07280	pepQ	aer	adpA	MA20_40260
+dkgB	cheY-1	colS	insI	yqhC
+ytbE	cheY1	xylE	prnA	ylbG
+dkgA	VP1088	cpxR	istB3	acrA
+aRA11	rpfG	desR	katA	mexA
+bdlA	cynT	narL	katE	ttgB
+inhA	can	copR	katB	mexB
+gbdR	ydhP	ragA	spsC	yjgB
+ftrA	araJ	nonF	wecE	yahK
+thiJ	mmsA	yfmJ	yvfE	ytfH
+adpA	grxC	MA20_40260	wbpE	sdcS
+insI	ydcR	yqhC	per	VP0657
+prnA	qor	ylbG	arnB	frmA
+istB3	cpxA	acrA	pseC	adhC
+katA	baeS	mexA	ydeN	czcB
+katE	pfeS	ttgB	atsA	cheW
+katB	hsdM	mexB	aslA	xylR
+spsC	cheD	yjgB	GALNS	glk
+wecE	fecR	yahK	mdsA	kdgK
+yvfE	MA20_26530	ytfH	ax21	katG
+wbpE	iorA	sdcS	cyaA	nagR
+per	wcaJ	VP0657	add	mshA
+arnB	epsL	frmA	add_1	czcC
+pseC	cpsE	adhC	pepQ	cheB
+ydeN	aer2	czcB	cheY-1	cheB2
+atsA	yycF1	cheW	cheY1	neoG
+aslA	ISPlu13C	xylR	VP1088	yddM
+GALNS	HA62_15005	glk	rpfG	pinR
+mdsA	aer-1	kdgK	cynT	pinE
+ax21	aer	katG	can	flgO
+cyaA	colS	nagR	ydhP	glgE
+add	xylE	mshA	araJ	ppdB
+add_1	cpxR	czcC	mmsA	desK
+pepQ	desR	cheB	grxC	pilS
+cheY-1	narL	cheB2	ydcR	rrpX
+cheY1	copR	neoG	qor	sglT
+VP1088	ragA	yddM	cpxA	cheA
+rpfG	nonF	pinR	baeS	xerD
+cynT	yfmJ	pinE	pfeS	hcaT
+can	MA20_40260	flgO	hsdM	sigV
+ydhP		glgE	cheD	mtlD
+araJ		ppdB	fecR	uxuB
+mmsA		desK	MA20_26530	manB
+grxC			iorA	nemA
+ydcR			wcaJ	gfo
+qor			epsL	cheY
+cpxA			cpsE	yfhA
+baeS			aer2	pqiA
+pfeS			yycF1	gumB
+hsdM			ISPlu13C	rfaB
+cheD			HA62_15005	csgA
+fecR			aer-1	fadD
+MA20_26530			aer	algT
+iorA			colS	ada
+wcaJ			xylE	cioB
+epsL			cpxR	cydB
+cpsE			desR	nhaP
+aer2			narL	dps
+yycF1			copR	EBIG1770
+ISPlu13C			ragA	pqiB
+HA62_15005			nonF	yebT
+aer-1			yfmJ	ybjQ
+aer			MA20_40260	hppD
+colS			yqhC	iorB
+xylE			ylbG	yqaE
+cpxR			acrA	IV02_17390
+desR			mexA	psrA
+narL			ttgB	cobB
+copR			mexB	sseA
+ragA			yjgB	motB
+nonF			yahK	mmsB
+yfmJ			ytfH	rfbC
+MA20_40260			sdcS	romA
+yqhC			VP0657	tagD
+ylbG			frmA	dnaE2
+acrA			adhC	imuB
+mexA			czcB	VV10822
+ttgB			cheW	fliL2
+mexB			xylR	cydA
+yjgB			glk	mgtE
+yahK			kdgK	cysE
+ytfH			katG	rraA
+sdcS			nagR	ppa
+VP0657			mshA	damX
+frmA			czcC	yibQ
+adhC			cheB	tatD
+czcB			cheB2	mleN
+cheW			neoG	slt
+xylR			yddM	VPA0491
+glk			pinR	hlyB
+kdgK			pinE	ygiM
+katG			flgO	cpdA
+nagR			glgE	yqfA
+mshA			ppdB	creA
+czcC			desK	cheC
+cheB			pilS	flhB2
+cheB2			rrpX	pleD
+neoG			sglT	flgT
+yddM			cheA	flgN
+pinR			xerD	flgM
+pinE			hcaT	flgA
+flgO			sigV	cheV
+glgE			mtlD	flgB
+ppdB			uxuB	flgC
+desK			manB	flgD
+pilS			nemA	flgE
+rrpX			gfo	flgF
+sglT			cheY	flgG
+cheA			yfhA
+xerD			pqiA
+hcaT			gumB
+sigV			rfaB
+mtlD			csgA
+uxuB			fadD
+manB			algT
+nemA			ada
+gfo			cioB
+cheY			cydB
+yfhA			nhaP
+pqiA			dps
+gumB			EBIG1770
+rfaB			pqiB
+csgA			yebT
+fadD			ybjQ
+algT			hppD
+ada			iorB
+cioB			yqaE
+cydB			IV02_17390
+nhaP			psrA
+dps			cobB
+EBIG1770			sseA
+pqiB			motB
+yebT			mmsB
+ybjQ			rfbC
+hppD			romA
+iorB			tagD
+yqaE			dnaE2
+IV02_17390			imuB
+psrA			VV10822
+cobB			fliL2
+sseA			cydA
+motB			mgtE
+mmsB			cysE
+rfbC			rraA
+romA			ppa
+tagD			damX
+dnaE2			yibQ
+imuB			tatD
+VV10822			mleN
+fliL2			slt
+cydA			VPA0491
+mgtE			hlyB
+cysE			ygiM
+rraA			cpdA
+ppa			yqfA
+damX			creA
+yibQ			cheC
+tatD			flhB2
+mleN			pleD
+slt			flgT
+VPA0491			flgN
+hlyB			flgM
+ygiM			flgA
+cpdA			cheV
+yqfA			flgB
+creA			flgC
+cheC			flgD
+flhB2			flgE
+pleD			flgF
+flgT			flgG
+flgN			flgH
+flgM			flgI
+flgA			flgJ
+cheV			flgK
+flgB
+flgC
+flgD
+flgE
+flgF
+flgG
+flgH
+flgI
+flgJ
+flgK
+flgL
+fliD
+fliS
+fleS

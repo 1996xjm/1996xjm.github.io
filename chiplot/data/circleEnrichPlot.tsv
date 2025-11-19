@@ -1,0 +1,24 @@
+ID	classification	pvalue	all	up_gene	down_gene
+GO:0044042	Biological Process	0.000710215	123	32	32
+GO:0005975	Biological Process	0.001451882	292	19	19
+GO:0000278	Biological Process	0.006369595	33	15	16
+GO:1902410	Biological Process	0.008081892	132	36	75
+GO:0071704	Biological Process	0.008136607	2643	333	117
+GO:0000281	Biological Process	0.01003804	14	1	2
+GO:0061640	Biological Process	0.01003804	14	5	4
+GO:0007349	Molecular Function	0.010295195	125	25	58
+GO:0071840	Molecular Function	0.010692914	591	123	139
+GO:0032506	Molecular Function	0.012245516	15	1	2
+GO:0044238	Molecular Function	0.012352889	2036	709	416
+GO:0051301	Molecular Function	0.01294966	28	6	10
+GO:0016570	Molecular Function	0.013268691	43	12	7
+GO:0016569	Molecular Function	0.014578368	44	15	7
+GO:0000910	Molecular Function	0.014709216	160	11	44
+GO:0006082	Cellular Component	0.018232655	489	33	83
+GO:0016052	Cellular Component	0.020418168	180	33	50
+GO:0000271	Cellular Component	0.020691678	7	1	4
+GO:0016568	Cellular Component	0.024272952	90	32	32
+GO:0016051	Cellular Component	0.026992596	8	2	4
+GO:0043170	Cellular Component	0.027463044	1889	157	168
+GO:0048646	Cellular Component	0.02769051	35	2	11
+GO:1903047	Cellular Component	0.030952909	21	3	5
